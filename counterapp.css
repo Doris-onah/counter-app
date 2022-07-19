@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima:wght@700&family=Big+Shoulders+Display&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Fugaz+One&family=Grape+Nuts&family=Inter:wght@300;700&family=Josefin+Sans:wght@300;400;600&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Kumar+One+Outline&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Licorice&family=Lobster&family=Macondo&family=Manrope:wght@500&family=Oswald&family=Outfit:wght@300;400;600&family=Overpass&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,700&family=Righteous&display=swap');
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55rem;
+    width: 100%;
+    font-family: "Edu NSW ACT Foundation";
+    font-weight: 800;
+}
+.container-box {
+    display: flex;
+    justify-content: center;
+align-items: center;
+text-align: center;
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(45deg, rgb(166, 182, 194), rgb(234, 231, 231));
+ border-radius: 25%;
+  border: none;
+ font-style: normal;
+  text-transform: uppercase;
+}
+.light {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light2 {
+    background-color: red;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+}
+
+.box1 {
+    text-align: center;
+    width: 270px;
+    height: 110px;
+    border-radius: 30px;
+    background: linear-gradient(50deg, rgb(73, 75, 76), rgb(80, 80, 80));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    height: 80px;
+    width: 240px;
+    background-color: rgb(35, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.box3 {
+    height: 50px;
+    width: 220px;
+    background: linear-gradient(45deg, rgb(193, 224, 244), rgb(238, 238, 238));
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+button {
+height: 70px;
+width: 90px;
+border-radius: 40px;
+border-style: solid;
+
+}
+.add {
+    background: linear-gradient(100deg, rgb(21, 107, 11), rgb(49, 111, 33)); 
+}
+.minus {
+    background: rgb(211, 4, 4);
+}
+.reset {
+    background: rgb(205, 205, 6);
+    
+    text-transform: capitalize;
+}
+
